@@ -1,0 +1,72 @@
+.form {
+  background-color: #f3e4e1;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: visible;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 47%;
+  margin-top: 30px;
+}
+
+.header {
+  margin: 0 20px 0 20px;
+}
+
+.login-info {
+  margin: 0 20px 0 20px;
+  font-weight: 400;
+  line-height: 24px;
+  size: 16px;
+}
+
+.input-form {
+  width: 310px;
+  height: 48px;
+  left: 33px;
+  top: 339px;
+  background-color: #f3e4e1;
+  border: 1px solid #2f2926;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+input[type="text"] {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  padding: 15px;
+}
+
+.gdpr {
+  margin-right: 190px;
+  size: 20px;
+}
+.gdpr-text {
+  margin-left: 10px;
+}
+
+input[type="radio"] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.login-btn {
+  width: 248px;
+  height: 55px;
+  background: #2f2926;
+  border-radius: 50px;
+  margin: auto;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  cursor: pointer;
+}

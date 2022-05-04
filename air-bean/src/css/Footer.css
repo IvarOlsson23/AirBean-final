@@ -1,0 +1,11 @@
+.footer {
+  background-image: url("../media/footer.png");
+  background-color: #f3e4e1;
+  height: 70px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.footer img {
+  object-fit: cover;
+}

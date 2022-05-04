@@ -1,0 +1,27 @@
+.orderstatus {
+  background-color: #e5674e;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.drone {
+  width: 70%;
+}
+
+.cool-btn {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 184px;
+  height: 55px;
+  left: 98px;
+  top: 530px;
+  font-family: "PT Serif";
+  font-weight: 700;
+  font-size: 24px;
+  border: none;
+}

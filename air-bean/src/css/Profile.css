@@ -1,0 +1,38 @@
+.orderhistorik {
+  color: white;
+  background-color: #2f2926;
+  height: 100%;
+}
+
+.orderhistorik-case {
+  display: flex;
+  text-align: left;
+  margin: 10px 10px 10px 20px;
+  font-size: 12px;
+  font-family: "Work Sans";
+  font-weight: 500;
+}
+
+.ordertime {
+  opacity: 0.6;
+}
+
+.profile-pic {
+  margin-top: 20px;
+}
+
+.order-header {
+  margin-top: 50px;
+}
+
+.totalt-spenderat {
+  padding: 20px;
+}
+
+.email-profile {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.6;
+}

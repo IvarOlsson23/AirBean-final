@@ -1,0 +1,31 @@
+.closenav-btn {
+  position: absolute;
+  left: 27px;
+  top: 30px;
+}
+
+.nav {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nav-links {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  gap: 10px;
+  font-size: 30px;
+}
+
+.divider {
+  opacity: 0.2;
+  height: 0;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 40px;
+}

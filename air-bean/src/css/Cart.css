@@ -1,0 +1,80 @@
+.cart-circle {
+  background-color: #2f2926;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border-radius: 60%;
+  height: 60px;
+  width: 60px;
+}
+
+.bag-icon {
+  margin-top: 27%;
+  margin-left: 2%;
+}
+
+.cart-counter {
+  position: absolute;
+  background-color: #e5674e;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.full-cart {
+  background-color: red;
+}
+
+.overlay {
+  background-color: aliceblue;
+  position: absolute;
+  width: 350px;
+  margin-left: 3%;
+  top: 80px;
+  opacity: 0.98;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.product-placed {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
+
+.dotted {
+  opacity: 0.5;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.product-inside {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px 0 40px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin: 90px 30px 30px 45px;
+}
+h2 {
+  margin: 20px 0 30px 0;
+}
+
+.take-my-money {
+  width: 248px;
+  height: 55px;
+  left: 64px;
+  top: 542px;
+  background: #2f2926;
+  border-radius: 50px;
+  font-family: "PT Serif";
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  opacity: 1;
+}

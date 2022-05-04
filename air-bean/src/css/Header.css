@@ -1,0 +1,14 @@
+.Header {
+  background-image: url("../media/header.png");
+  height: 18vh;
+  background-color: #f3e4e1;
+  background-repeat: no-repeat;
+}
+
+.MenuIcon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 27px;
+  top: 30px;
+}

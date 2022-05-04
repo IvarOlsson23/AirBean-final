@@ -1,0 +1,33 @@
+.about {
+  height: 1200px;
+  background-color: #f3e4e1;
+}
+
+.about-text {
+  margin: 0 30px 50px 30px;
+  text-align: left;
+}
+
+.headshot {
+  background-color: #f3e4e1;
+}
+
+.vårtKaffe {
+  margin-bottom: 20px;
+}
+
+.about-bold {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.about-normal {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+}
