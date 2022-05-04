@@ -3,9 +3,8 @@ import Overlay from "./Cartoverlay";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import { setArrival } from "../actions/menuAction";
+import { setArrival, addProduct } from "../actions/Actions";
 import { useDispatch } from "react-redux";
-import { addProduct } from "../actions/menuAction";
 import "../css/Cart.css";
 
 function Cart() {

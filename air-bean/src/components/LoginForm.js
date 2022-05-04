@@ -9,7 +9,7 @@ import {
   addEmail,
   addProduct,
   setArrival,
-} from "../actions/menuAction";
+} from "../actions/Actions";
 
 function Form() {
   const dispatch = useDispatch();

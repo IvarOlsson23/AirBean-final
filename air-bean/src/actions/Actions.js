@@ -1,3 +1,9 @@
+export function addProduct(product) {
+  return {
+    type: "ADD_PRODUCT",
+    payload: product,
+  };
+}
 export function setUsername(name) {
   return {
     type: "SET_USERNAME",
@@ -9,13 +15,6 @@ export function addEmail(email) {
   return {
     type: "ADD_EMAIL",
     payload: email,
-  };
-}
-
-export function addProduct(product) {
-  return {
-    type: "ADD_PRODUCT",
-    payload: product,
   };
 }
 

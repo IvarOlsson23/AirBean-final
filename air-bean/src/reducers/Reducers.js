@@ -10,7 +10,15 @@ const initalState = {
 
 export const Reducer = (state = initalState, action) => {
   switch (action.type) {
-    /******* */
+    /****** */
+    case "ADD_PRODUCT":
+      return {
+        ...state,
+        products: action.payload,
+      };
+    /****** */
+
+    /****** */
     case "SET_USERNAME":
       return {
         user: {
@@ -25,14 +33,6 @@ export const Reducer = (state = initalState, action) => {
       return {
         ...state,
         email: action.payload,
-      };
-    /****** */
-
-    /****** */
-    case "ADD_PRODUCT":
-      return {
-        ...state,
-        products: action.payload,
       };
     /****** */
 

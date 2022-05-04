@@ -1,7 +1,7 @@
 import addbtn from "../media/add.png";
 import { useEffect } from "react";
 import axios from "axios";
-import { addProduct, setQuantity, setCartCounter } from "../actions/menuAction";
+import { addProduct, setQuantity, setCartCounter } from "../actions/Actions";
 import { useDispatch } from "react-redux";
 import { useState } from "react";
 import "../css/Menu.css";
