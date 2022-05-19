@@ -1,0 +1,46 @@
+{
+  "accounts": [
+    {
+      "username": "test14:00",
+      "email": "test@test.com"
+    },
+    {
+      "username": "test09:47",
+      "email": "test.testsson@test.com"
+    }
+  ],
+  "orders": [
+    {
+      "username": "test09:47",
+      "items": [
+        {
+          "quantity": 1,
+          "total": 39,
+          "id": 1,
+          "title": "Bryggkaffe",
+          "desc": "Bryggd på månadens bönor.",
+          "price": 39
+        },
+        {
+          "quantity": 1,
+          "total": 49,
+          "id": 2,
+          "title": "Caffè Doppio",
+          "desc": "Bryggd på månadens bönor.",
+          "price": 49
+        },
+        {
+          "quantity": 1,
+          "total": 49,
+          "id": 3,
+          "title": "Cappuccino",
+          "desc": "Bryggd på månadens bönor.",
+          "price": 49
+        }
+      ],
+      "total": 137,
+      "eta": "2022-05-19T08:02:45.595Z",
+      "id": "789ce113-5898-47ae-a07e-6cc650fa2680"
+    }
+  ]
+}
